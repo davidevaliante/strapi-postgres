@@ -6,8 +6,5 @@ module.exports = {
     playgroundAlways: false,
     depthLimit: 7,
     amountLimit: 100,
-    apolloServer: {
-      tracing: false,
-    },
   },
 };
