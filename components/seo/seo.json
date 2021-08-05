@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "name": "Seo",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string",
+      "required": true
+    },
+    "seoDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
