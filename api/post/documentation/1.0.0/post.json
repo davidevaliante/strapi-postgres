@@ -667,6 +667,9 @@
               "caption": {
                 "type": "string"
               },
+              "blurHash": {
+                "type": "string"
+              },
               "width": {
                 "type": "integer"
               },
