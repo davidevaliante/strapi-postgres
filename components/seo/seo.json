@@ -14,10 +14,6 @@
     "seoDescription": {
       "type": "text",
       "required": true
-    },
-    "slug": {
-      "type": "string",
-      "required": true
     }
   }
 }

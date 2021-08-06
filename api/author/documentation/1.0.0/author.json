@@ -611,7 +611,8 @@
               "Seo",
               "PageContent",
               "coverImage",
-              "title"
+              "title",
+              "slug"
             ],
             "properties": {
               "id": {
@@ -645,6 +646,9 @@
                 }
               },
               "mainTag": {
+                "type": "string"
+              },
+              "slug": {
                 "type": "string"
               },
               "localizations": {

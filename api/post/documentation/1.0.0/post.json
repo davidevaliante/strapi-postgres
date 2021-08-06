@@ -520,7 +520,8 @@
           "Seo",
           "PageContent",
           "coverImage",
-          "title"
+          "title",
+          "slug"
         ],
         "properties": {
           "id": {
@@ -531,8 +532,7 @@
             "required": [
               "id",
               "seoTitle",
-              "seoDescription",
-              "slug"
+              "seoDescription"
             ],
             "properties": {
               "id": {
@@ -542,9 +542,6 @@
                 "type": "string"
               },
               "seoDescription": {
-                "type": "string"
-              },
-              "slug": {
                 "type": "string"
               }
             }
@@ -728,7 +725,8 @@
                 "Seo",
                 "PageContent",
                 "coverImage",
-                "title"
+                "title",
+                "slug"
               ],
               "properties": {
                 "id": {
@@ -762,6 +760,9 @@
                   }
                 },
                 "mainTag": {
+                  "type": "string"
+                },
+                "slug": {
                   "type": "string"
                 },
                 "localizations": {
@@ -817,6 +818,9 @@
               }
             }
           },
+          "slug": {
+            "type": "string"
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -825,7 +829,8 @@
                 "Seo",
                 "PageContent",
                 "coverImage",
-                "title"
+                "title",
+                "slug"
               ],
               "properties": {
                 "id": {
@@ -859,6 +864,9 @@
                   }
                 },
                 "mainTag": {
+                  "type": "string"
+                },
+                "slug": {
                   "type": "string"
                 },
                 "localizations": {
@@ -895,7 +903,8 @@
         "required": [
           "Seo",
           "PageContent",
-          "title"
+          "title",
+          "slug"
         ],
         "properties": {
           "Seo": {
@@ -903,8 +912,7 @@
             "required": [
               "id",
               "seoTitle",
-              "seoDescription",
-              "slug"
+              "seoDescription"
             ],
             "properties": {
               "id": {
@@ -914,9 +922,6 @@
                 "type": "string"
               },
               "seoDescription": {
-                "type": "string"
-              },
-              "slug": {
                 "type": "string"
               }
             }
@@ -966,6 +971,9 @@
             }
           },
           "mainTag": {
+            "type": "string"
+          },
+          "slug": {
             "type": "string"
           },
           "localizations": {

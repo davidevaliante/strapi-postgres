@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/06/2021 5:04:38 PM"
+    "x-generation-date": "08/06/2021 11:48:24 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3904,7 +3904,8 @@
               "Seo",
               "PageContent",
               "coverImage",
-              "title"
+              "title",
+              "slug"
             ],
             "properties": {
               "id": {
@@ -3938,6 +3939,9 @@
                 }
               },
               "mainTag": {
+                "type": "string"
+              },
+              "slug": {
                 "type": "string"
               },
               "localizations": {
@@ -4003,7 +4007,8 @@
           "Seo",
           "PageContent",
           "coverImage",
-          "title"
+          "title",
+          "slug"
         ],
         "properties": {
           "id": {
@@ -4014,8 +4019,7 @@
             "required": [
               "id",
               "seoTitle",
-              "seoDescription",
-              "slug"
+              "seoDescription"
             ],
             "properties": {
               "id": {
@@ -4025,9 +4029,6 @@
                 "type": "string"
               },
               "seoDescription": {
-                "type": "string"
-              },
-              "slug": {
                 "type": "string"
               }
             }
@@ -4211,7 +4212,8 @@
                 "Seo",
                 "PageContent",
                 "coverImage",
-                "title"
+                "title",
+                "slug"
               ],
               "properties": {
                 "id": {
@@ -4245,6 +4247,9 @@
                   }
                 },
                 "mainTag": {
+                  "type": "string"
+                },
+                "slug": {
                   "type": "string"
                 },
                 "localizations": {
@@ -4300,6 +4305,9 @@
               }
             }
           },
+          "slug": {
+            "type": "string"
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -4308,7 +4316,8 @@
                 "Seo",
                 "PageContent",
                 "coverImage",
-                "title"
+                "title",
+                "slug"
               ],
               "properties": {
                 "id": {
@@ -4342,6 +4351,9 @@
                   }
                 },
                 "mainTag": {
+                  "type": "string"
+                },
+                "slug": {
                   "type": "string"
                 },
                 "localizations": {
@@ -4378,7 +4390,8 @@
         "required": [
           "Seo",
           "PageContent",
-          "title"
+          "title",
+          "slug"
         ],
         "properties": {
           "Seo": {
@@ -4386,8 +4399,7 @@
             "required": [
               "id",
               "seoTitle",
-              "seoDescription",
-              "slug"
+              "seoDescription"
             ],
             "properties": {
               "id": {
@@ -4397,9 +4409,6 @@
                 "type": "string"
               },
               "seoDescription": {
-                "type": "string"
-              },
-              "slug": {
                 "type": "string"
               }
             }
@@ -4451,6 +4460,9 @@
           "mainTag": {
             "type": "string"
           },
+          "slug": {
+            "type": "string"
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -4495,7 +4507,8 @@
                 "Seo",
                 "PageContent",
                 "coverImage",
-                "title"
+                "title",
+                "slug"
               ],
               "properties": {
                 "id": {
@@ -4531,6 +4544,9 @@
                 "mainTag": {
                   "type": "string"
                 },
+                "slug": {
+                  "type": "string"
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -4558,7 +4574,8 @@
               "Seo",
               "PageContent",
               "coverImage",
-              "title"
+              "title",
+              "slug"
             ],
             "properties": {
               "id": {
@@ -4592,6 +4609,9 @@
                 }
               },
               "mainTag": {
+                "type": "string"
+              },
+              "slug": {
                 "type": "string"
               },
               "localizations": {
