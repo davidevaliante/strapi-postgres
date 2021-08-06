@@ -644,6 +644,9 @@
                   "type": "string"
                 }
               },
+              "mainTag": {
+                "type": "string"
+              },
               "localizations": {
                 "type": "array",
                 "items": {

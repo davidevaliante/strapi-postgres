@@ -572,6 +572,9 @@
                     "type": "string"
                   }
                 },
+                "post": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -758,6 +761,9 @@
                     "type": "string"
                   }
                 },
+                "mainTag": {
+                  "type": "string"
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -776,6 +782,38 @@
                 "updated_by": {
                   "type": "string"
                 }
+              }
+            }
+          },
+          "mainTag": {
+            "required": [
+              "id",
+              "slug"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "string"
+              },
+              "posts": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "post": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
               }
             }
           },
@@ -819,6 +857,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "mainTag": {
+                  "type": "string"
                 },
                 "localizations": {
                   "type": "array",
@@ -923,6 +964,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "mainTag": {
+            "type": "string"
           },
           "localizations": {
             "type": "array",

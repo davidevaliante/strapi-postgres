@@ -75,6 +75,10 @@
     },
     "footerRelatedPosts": {
       "collection": "post"
+    },
+    "mainTag": {
+      "model": "tag",
+      "via": "post"
     }
   }
 }

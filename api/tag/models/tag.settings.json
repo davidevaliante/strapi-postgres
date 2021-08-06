@@ -21,6 +21,10 @@
     "posts": {
       "via": "tags",
       "collection": "post"
+    },
+    "post": {
+      "via": "mainTag",
+      "model": "post"
     }
   }
 }

@@ -570,6 +570,9 @@
                     "type": "string"
                   }
                 },
+                "mainTag": {
+                  "type": "string"
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -588,6 +591,68 @@
                 "updated_by": {
                   "type": "string"
                 }
+              }
+            }
+          },
+          "post": {
+            "required": [
+              "id",
+              "Seo",
+              "PageContent",
+              "coverImage",
+              "title"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "Seo": {
+                "type": "component"
+              },
+              "tags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "author": {
+                "type": "string"
+              },
+              "PageContent": {
+                "type": "dynamiczone"
+              },
+              "coverImage": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "footerRelatedPosts": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "mainTag": {
+                "type": "string"
+              },
+              "localizations": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "locale": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
               }
             }
           }
@@ -609,6 +674,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "post": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
