@@ -571,6 +571,81 @@
                 "author": {
                   "type": "string"
                 },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "localizations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "locale": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "secondaryPosts": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "Seo",
+                "PageContent",
+                "coverImage",
+                "title",
+                "slug"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Seo": {
+                  "type": "component"
+                },
+                "PageContent": {
+                  "type": "dynamiczone"
+                },
+                "coverImage": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "footerRelatedPosts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "mainTag": {
+                  "type": "string"
+                },
+                "author": {
+                  "type": "string"
+                },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -606,6 +681,12 @@
             "type": "string"
           },
           "posts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "secondaryPosts": {
             "type": "array",
             "items": {
               "type": "string"

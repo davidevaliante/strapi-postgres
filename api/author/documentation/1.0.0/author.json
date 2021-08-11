@@ -647,6 +647,12 @@
                 "author": {
                   "type": "string"
                 },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "localizations": {
                   "type": "array",
                   "items": {

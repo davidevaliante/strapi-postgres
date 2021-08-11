@@ -687,6 +687,12 @@
                 "author": {
                   "type": "string"
                 },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -727,6 +733,12 @@
                 "type": "string"
               },
               "posts": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "secondaryPosts": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -780,6 +792,44 @@
               }
             }
           },
+          "tags": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "slug"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "posts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "secondaryPosts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -821,6 +871,12 @@
                 },
                 "author": {
                   "type": "string"
+                },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "localizations": {
                   "type": "array",
@@ -922,6 +978,12 @@
           },
           "author": {
             "type": "string"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "localizations": {
             "type": "array",

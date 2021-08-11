@@ -83,6 +83,11 @@
     "author": {
       "model": "author",
       "via": "posts"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "secondaryPosts",
+      "dominant": true
     }
   }
 }

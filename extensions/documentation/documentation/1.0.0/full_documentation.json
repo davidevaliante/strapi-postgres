@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/11/2021 12:33:37 PM"
+    "x-generation-date": "08/11/2021 3:04:57 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3940,6 +3940,12 @@
                 "author": {
                   "type": "string"
                 },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -4174,6 +4180,12 @@
                 "author": {
                   "type": "string"
                 },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -4214,6 +4226,12 @@
                 "type": "string"
               },
               "posts": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "secondaryPosts": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -4267,6 +4285,44 @@
               }
             }
           },
+          "tags": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "slug"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "posts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "secondaryPosts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -4308,6 +4364,12 @@
                 },
                 "author": {
                   "type": "string"
+                },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "localizations": {
                   "type": "array",
@@ -4410,6 +4472,12 @@
           "author": {
             "type": "string"
           },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -4488,6 +4556,81 @@
                 "author": {
                   "type": "string"
                 },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "localizations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "locale": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "secondaryPosts": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "Seo",
+                "PageContent",
+                "coverImage",
+                "title",
+                "slug"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Seo": {
+                  "type": "component"
+                },
+                "PageContent": {
+                  "type": "dynamiczone"
+                },
+                "coverImage": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "footerRelatedPosts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "mainTag": {
+                  "type": "string"
+                },
+                "author": {
+                  "type": "string"
+                },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -4523,6 +4666,12 @@
             "type": "string"
           },
           "posts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "secondaryPosts": {
             "type": "array",
             "items": {
               "type": "string"
