@@ -546,78 +546,6 @@
               }
             }
           },
-          "tags": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "slug"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "slug": {
-                  "type": "string"
-                },
-                "posts": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "post": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "author": {
-            "required": [
-              "id",
-              "name",
-              "image",
-              "about"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "image": {
-                "type": "string"
-              },
-              "about": {
-                "type": "string"
-              },
-              "aboutArticle": {
-                "type": "string"
-              },
-              "post": {
-                "type": "string"
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
           "PageContent": {
             "type": "array",
             "items": {
@@ -735,15 +663,6 @@
                 "Seo": {
                   "type": "component"
                 },
-                "tags": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "author": {
-                  "type": "string"
-                },
                 "PageContent": {
                   "type": "dynamiczone"
                 },
@@ -759,10 +678,13 @@
                     "type": "string"
                   }
                 },
+                "slug": {
+                  "type": "string"
+                },
                 "mainTag": {
                   "type": "string"
                 },
-                "slug": {
+                "author": {
                   "type": "string"
                 },
                 "localizations": {
@@ -786,6 +708,9 @@
               }
             }
           },
+          "slug": {
+            "type": "string"
+          },
           "mainTag": {
             "required": [
               "id",
@@ -807,7 +732,44 @@
                   "type": "string"
                 }
               },
-              "post": {
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "author": {
+            "required": [
+              "id",
+              "name",
+              "image",
+              "about"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
+              "about": {
+                "type": "string"
+              },
+              "aboutArticle": {
+                "type": "string"
+              },
+              "posts": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
                 "type": "string"
               },
               "created_by": {
@@ -817,9 +779,6 @@
                 "type": "string"
               }
             }
-          },
-          "slug": {
-            "type": "string"
           },
           "localizations": {
             "type": "array",
@@ -839,15 +798,6 @@
                 "Seo": {
                   "type": "component"
                 },
-                "tags": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "author": {
-                  "type": "string"
-                },
                 "PageContent": {
                   "type": "dynamiczone"
                 },
@@ -863,10 +813,13 @@
                     "type": "string"
                   }
                 },
+                "slug": {
+                  "type": "string"
+                },
                 "mainTag": {
                   "type": "string"
                 },
-                "slug": {
+                "author": {
                   "type": "string"
                 },
                 "localizations": {
@@ -926,15 +879,6 @@
               }
             }
           },
-          "tags": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "author": {
-            "type": "string"
-          },
           "PageContent": {
             "type": "array",
             "items": {
@@ -970,10 +914,13 @@
               "type": "string"
             }
           },
+          "slug": {
+            "type": "string"
+          },
           "mainTag": {
             "type": "string"
           },
-          "slug": {
+          "author": {
             "type": "string"
           },
           "localizations": {

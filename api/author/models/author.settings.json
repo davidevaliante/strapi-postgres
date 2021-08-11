@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "authors",
   "info": {
-    "name": "Author"
+    "name": "Author",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -35,9 +36,9 @@
     "aboutArticle": {
       "type": "richtext"
     },
-    "post": {
+    "posts": {
       "via": "author",
-      "model": "post"
+      "collection": "post"
     }
   }
 }

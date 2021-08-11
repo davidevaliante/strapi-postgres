@@ -605,69 +605,66 @@
           "aboutArticle": {
             "type": "string"
           },
-          "post": {
-            "required": [
-              "id",
-              "Seo",
-              "PageContent",
-              "coverImage",
-              "title",
-              "slug"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "Seo": {
-                "type": "component"
-              },
-              "tags": {
-                "type": "array",
-                "items": {
+          "posts": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "Seo",
+                "PageContent",
+                "coverImage",
+                "title",
+                "slug"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Seo": {
+                  "type": "component"
+                },
+                "PageContent": {
+                  "type": "dynamiczone"
+                },
+                "coverImage": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "footerRelatedPosts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "mainTag": {
+                  "type": "string"
+                },
+                "author": {
+                  "type": "string"
+                },
+                "localizations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "locale": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
                   "type": "string"
                 }
-              },
-              "author": {
-                "type": "string"
-              },
-              "PageContent": {
-                "type": "dynamiczone"
-              },
-              "coverImage": {
-                "type": "string"
-              },
-              "title": {
-                "type": "string"
-              },
-              "footerRelatedPosts": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "mainTag": {
-                "type": "string"
-              },
-              "slug": {
-                "type": "string"
-              },
-              "localizations": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "locale": {
-                "type": "string"
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
               }
             }
           },
@@ -693,8 +690,11 @@
           "aboutArticle": {
             "type": "string"
           },
-          "post": {
-            "type": "string"
+          "posts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "published_at": {
             "type": "string",

@@ -27,15 +27,6 @@
         }
       }
     },
-    "tags": {
-      "collection": "tag",
-      "via": "posts",
-      "dominant": true
-    },
-    "author": {
-      "model": "author",
-      "via": "post"
-    },
     "PageContent": {
       "pluginOptions": {
         "i18n": {
@@ -76,10 +67,6 @@
     "footerRelatedPosts": {
       "collection": "post"
     },
-    "mainTag": {
-      "model": "tag",
-      "via": "post"
-    },
     "slug": {
       "pluginOptions": {
         "i18n": {
@@ -88,6 +75,14 @@
       },
       "type": "string",
       "required": true
+    },
+    "mainTag": {
+      "model": "tag",
+      "via": "posts"
+    },
+    "author": {
+      "model": "author",
+      "via": "posts"
     }
   }
 }
